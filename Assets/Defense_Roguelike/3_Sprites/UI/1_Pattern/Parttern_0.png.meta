@@ -1,0 +1,1120 @@
+fileFormatVersion: 2
+guid: 79d7962333d3645d9bde14056e16ae05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4925952511082798982
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_0
+  - first:
+      213: 5354619995043793599
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_1
+  - first:
+      213: 7844544626853065407
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_2
+  - first:
+      213: 3804453499601798405
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_3
+  - first:
+      213: -3176723833377911625
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_4
+  - first:
+      213: 4180491759552901112
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_5
+  - first:
+      213: -5213856333856360833
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_6
+  - first:
+      213: 3677170558098402203
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_7
+  - first:
+      213: 6859694432882465000
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_8
+  - first:
+      213: 4553312539507082613
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_9
+  - first:
+      213: -4515010694037888711
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_10
+  - first:
+      213: -1154910143226170250
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_11
+  - first:
+      213: -6003064294235409904
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_12
+  - first:
+      213: 6798547158280931317
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_13
+  - first:
+      213: -1375447970267097683
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_14
+  - first:
+      213: -3408394494924114447
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_15
+  - first:
+      213: 6538149598471547645
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_16
+  - first:
+      213: 4851912645546546473
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_17
+  - first:
+      213: 3749603302499529898
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_18
+  - first:
+      213: 2515958094032873412
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_19
+  - first:
+      213: -4051727067653516800
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_20
+  - first:
+      213: 8051276802406750977
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_21
+  - first:
+      213: 2069932681537521368
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_22
+  - first:
+      213: 6504278210160298783
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_23
+  - first:
+      213: -7981543149466578750
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_24
+  - first:
+      213: -8819474345132376583
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_25
+  - first:
+      213: 4985543317190106486
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_26
+  - first:
+      213: -8286226543920242942
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_27
+  - first:
+      213: 1291572662299805404
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_28
+  - first:
+      213: 57167381694831722
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_29
+  - first:
+      213: 845185412572624412
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_30
+  - first:
+      213: -4309794642181732953
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_31
+  - first:
+      213: 4916286387201013652
+    second: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+      61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+      59_, 1.00)_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3860
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f9883c5bf7c5440800000000000000
+      internalID: 4925952511082798982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3740
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba0ac7f38e6f4a40800000000000000
+      internalID: 5354619995043793599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3620
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2b644a6cb6ddc60800000000000000
+      internalID: 7844544626853065407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505c1401d422cc430800000000000000
+      internalID: 3804453499601798405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3380
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc0ef921820ae3d0800000000000000
+      internalID: -3176723833377911625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3260
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff299a2b17140a30800000000000000
+      internalID: 4180491759552901112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3140
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76329ed949a4a7b0800000000000000
+      internalID: -5213856333856360833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3020
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9beafdd32fe70330800000000000000
+      internalID: 3677170558098402203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e81fa31eb7823f50800000000000000
+      internalID: 6859694432882465000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2780
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575c6a451ad903f30800000000000000
+      internalID: 4553312539507082613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2660
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93128c002b57751c0800000000000000
+      internalID: -4515010694037888711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2540
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674328df75fe8ffe0800000000000000
+      internalID: -1154910143226170250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012744a74d4d0bca0800000000000000
+      internalID: -6003064294235409904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2300
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f78316ce9a495e50800000000000000
+      internalID: 6798547158280931317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2180
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da59235cb5d69ece0800000000000000
+      internalID: -1375447970267097683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2060
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5b6abe343f2b0d0800000000000000
+      internalID: -3408394494924114447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1940
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa62415b6c2cba50800000000000000
+      internalID: 6538149598471547645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925170738d4755340800000000000000
+      internalID: 4851912645546546473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4bd1e5654490430800000000000000
+      internalID: 3749603302499529898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c729907e8a7ae220800000000000000
+      internalID: 2515958094032873412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1460
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0025dade2bf55c7c0800000000000000
+      internalID: -4051727067653516800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1340
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b1cc32891ebbf60800000000000000
+      internalID: 8051276802406750977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d604009ec0e9bc10800000000000000
+      internalID: 2069932681537521368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b0bec2296d34a50800000000000000
+      internalID: 6504278210160298783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c097982bccdb3190800000000000000
+      internalID: -7981543149466578750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdb6b88fceea9580800000000000000
+      internalID: -8819474345132376583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d50718b35303540800000000000000
+      internalID: 4985543317190106486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f98315cd8610d80800000000000000
+      internalID: -8286226543920242942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd64cf94e769ce110800000000000000
+      internalID: 1291572662299805404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cd8a64e691bc000800000000000000
+      internalID: 57167381694831722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16bbbd97a3babb00800000000000000
+      internalID: 845185412572624412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a540e17b988034c0800000000000000
+      internalID: -4309794642181732953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_,
+        61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_,
+        59_, 1.00)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 2160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497743beb682a3440800000000000000
+      internalID: 4916286387201013652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_0: 4925952511082798982
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_1: 5354619995043793599
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_10: -4515010694037888711
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_11: -1154910143226170250
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_12: -6003064294235409904
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_13: 6798547158280931317
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_14: -1375447970267097683
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_15: -3408394494924114447
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_16: 6538149598471547645
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_17: 4851912645546546473
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_18: 3749603302499529898
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_19: 2515958094032873412
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_2: 7844544626853065407
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_20: -4051727067653516800
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_21: 8051276802406750977
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_22: 2069932681537521368
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_23: 6504278210160298783
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_24: -7981543149466578750
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_25: -8819474345132376583
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_26: 4985543317190106486
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_27: -8286226543920242942
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_28: 1291572662299805404
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_29: 57167381694831722
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_3: 3804453499601798405
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_30: 845185412572624412
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_31: -4309794642181732953
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_32: 4916286387201013652
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_4: -3176723833377911625
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_5: 4180491759552901112
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_6: -5213856333856360833
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_7: 3677170558098402203
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_8: 6859694432882465000
+      pattern_chevron-3_2_3_0-0_0_1__hsla(240, 7_, 18_, 0.00)_hsla(183, 81_, 61_, 1.00)_hsla(4, 90_, 58_, 1.00)_hsla(187, 100_, 42_, 1.00)_hsla(259, 59_, 59_, 1.00)_9: 4553312539507082613
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

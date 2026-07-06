@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: b7f7c119df53e4b86beb41414693beab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1257140709392386458
+    second: Malkuth_Effect_0
+  - first:
+      213: 1285470322622361441
+    second: Malkuth_Effect_1
+  - first:
+      213: 7112411767924931760
+    second: Malkuth_Effect_2
+  - first:
+      213: 8111366987505361620
+    second: Malkuth_Effect_3
+  - first:
+      213: -4682013322969084223
+    second: Malkuth_Effect_4
+  - first:
+      213: -7691157475533112579
+    second: Malkuth_Effect_5
+  - first:
+      213: 432320588867638596
+    second: Malkuth_Effect_6
+  - first:
+      213: 3075676667952342728
+    second: Malkuth_Effect_7
+  - first:
+      213: -120264169094749881
+    second: Malkuth_Effect_8
+  - first:
+      213: -7327977759049468418
+    second: Malkuth_Effect_9
+  - first:
+      213: -3595522772238690403
+    second: Malkuth_Effect_10
+  - first:
+      213: 8989381185329913628
+    second: Malkuth_Effect_11
+  - first:
+      213: 1803013512881674427
+    second: Malkuth_Effect_12
+  - first:
+      213: -5428381491029849274
+    second: Malkuth_Effect_13
+  - first:
+      213: -1986167045831523236
+    second: Malkuth_Effect_14
+  - first:
+      213: -3917452833672327870
+    second: Malkuth_Effect_15
+  - first:
+      213: -1571794928903423383
+    second: Malkuth_Effect_16
+  - first:
+      213: -6775777848674156231
+    second: Malkuth_Effect_17
+  - first:
+      213: 1320788112212714114
+    second: Malkuth_Effect_18
+  - first:
+      213: 8111719140444072408
+    second: Malkuth_Effect_19
+  - first:
+      213: -7827818372015554734
+    second: Malkuth_Effect_20
+  - first:
+      213: -1505994066305614359
+    second: Malkuth_Effect_21
+  - first:
+      213: 2776707020308608861
+    second: Malkuth_Effect_22
+  - first:
+      213: 3841513533258016486
+    second: Malkuth_Effect_23
+  - first:
+      213: -6662324585644929964
+    second: Malkuth_Effect_24
+  - first:
+      213: 3399841355946416746
+    second: Malkuth_Effect_25
+  - first:
+      213: 6343675803757893595
+    second: Malkuth_Effect_26
+  - first:
+      213: 8245141765962722800
+    second: Malkuth_Effect_27
+  - first:
+      213: 1509129333373694002
+    second: Malkuth_Effect_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Malkuth_Effect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4102
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85566372027442c6833d04ab7477ccb
+      internalID: -1909987973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_1
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4102
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55fd7ec9c1a84d99b0d434d7826ea45
+      internalID: -2005116312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_2
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4102
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de3a51bb26fd4240affeb867ff647b2
+      internalID: 2137471568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_3
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4102
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02086ee5070b24ac69e497fc780929f4
+      internalID: -1388345655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2054
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f059871ec2d854a34bc92812e9389ae8
+      internalID: -35470155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_5
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2054
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f7e18e844840e1be81a99307b87e6
+      internalID: -1696658996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_6
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2054
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3946467b83064c528f82925e8bbe92f
+      internalID: -1324871435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_7
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2054
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5994de1bdf45bc85f8e7136c54b12
+      internalID: -1943873066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde5e0aab7d8140a19ab2a49251cd2f5
+      internalID: -659543145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8589c7025a10d4fecb8822e909dac0cf
+      internalID: 301374289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malkuth_Effect_10
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb54350c51ce41cc85edff69c342ab3
+      internalID: -1346729799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 44834be4ef59846c0b3cbff9127aa810
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2048.0,"y":2048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Malkuth_Effect_0: -1909987973
+      Malkuth_Effect_1: -2005116312
+      Malkuth_Effect_10: -1346729799
+      Malkuth_Effect_2: 2137471568
+      Malkuth_Effect_3: -1388345655
+      Malkuth_Effect_4: -35470155
+      Malkuth_Effect_5: -1696658996
+      Malkuth_Effect_6: -1324871435
+      Malkuth_Effect_7: -1943873066
+      Malkuth_Effect_8: -659543145
+      Malkuth_Effect_9: 301374289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

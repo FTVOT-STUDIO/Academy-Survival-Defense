@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 8a19e7f8368b04e53a3e0d340367174b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 822975158016176875
+    second: Metatron_0
+  - first:
+      213: -1560462266450222990
+    second: Metatron_1
+  - first:
+      213: 8186860038014832274
+    second: Metatron_2
+  - first:
+      213: -6145946671059493644
+    second: Metatron_3
+  - first:
+      213: -1744688574990148190
+    second: Metatron_4
+  - first:
+      213: 6519069181718978710
+    second: Metatron_5
+  - first:
+      213: 2637673648803490436
+    second: Metatron_6
+  - first:
+      213: -3545738781956709579
+    second: Metatron_7
+  - first:
+      213: -5805961532044539743
+    second: Metatron_8
+  - first:
+      213: -6408087769455955643
+    second: Metatron_9
+  - first:
+      213: -4933754217662720898
+    second: Metatron_10
+  - first:
+      213: 3512356866928843296
+    second: Metatron_11
+  - first:
+      213: -2891919223443150046
+    second: Metatron_12
+  - first:
+      213: -8011108275943134066
+    second: Metatron_13
+  - first:
+      213: 3347725767858125449
+    second: Metatron_14
+  - first:
+      213: -3139162248043680436
+    second: Metatron_15
+  - first:
+      213: 6527614085232013220
+    second: Metatron_16
+  - first:
+      213: 1884867598437145975
+    second: Metatron_17
+  - first:
+      213: 525819205718559208
+    second: Metatron_18
+  - first:
+      213: -5688126622884761753
+    second: Metatron_19
+  - first:
+      213: -2216661263432783513
+    second: Metatron_20
+  - first:
+      213: -3500697018777283297
+    second: Metatron_21
+  - first:
+      213: 1769450367071564372
+    second: Metatron_22
+  - first:
+      213: -4282229714773503106
+    second: Metatron_23
+  - first:
+      213: -3040685031410920355
+    second: Metatron_24
+  - first:
+      213: -5075146388595201297
+    second: Metatron_25
+  - first:
+      213: -7494812770219512055
+    second: Metatron_26
+  - first:
+      213: 6564346354302315859
+    second: Metatron_27
+  - first:
+      213: 625405580869917516
+    second: Metatron_28
+  - first:
+      213: -7539278437000682081
+    second: Metatron_29
+  - first:
+      213: -7869166499134909529
+    second: Metatron_30
+  - first:
+      213: -2602942324071552322
+    second: Metatron_31
+  - first:
+      213: 1689109762303307918
+    second: Metatron_32
+  - first:
+      213: 7126207947658428199
+    second: Metatron_33
+  - first:
+      213: -923992352051793571
+    second: Metatron_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 210
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Metatron_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6150
+        width: 3072
+        height: 3072
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be27680cb8bcb6b00800000000000000
+      internalID: 822975158016176875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_1
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6150
+        width: 3072
+        height: 3072
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27065da16df185ae0800000000000000
+      internalID: -1560462266450222990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_2
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6150
+        width: 3072
+        height: 3072
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e07b724d19d9170800000000000000
+      internalID: 8186860038014832274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3078
+        width: 3072
+        height: 3072
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc1107b01635baa0800000000000000
+      internalID: -6145946671059493644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3078
+        width: 3072
+        height: 3072
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad970c1cfe99c7e0800000000000000
+      internalID: -1744688574990148190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_5
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3078
+        width: 3072
+        height: 3072
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6906e8a91e2687a50800000000000000
+      internalID: 6519069181718978710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 3072
+        height: 3072
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a27566536ea9420800000000000000
+      internalID: 2637673648803490436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metatron_7
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6
+        width: 3072
+        height: 3072
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533e42b2d510bcec0800000000000000
+      internalID: -3545738781956709579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9670583bcc2f54946a921bf8c63a2698
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":3072.0,"y":3072.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Metatron_0: 822975158016176875
+      Metatron_1: -1560462266450222990
+      Metatron_2: 8186860038014832274
+      Metatron_3: -6145946671059493644
+      Metatron_4: -1744688574990148190
+      Metatron_5: 6519069181718978710
+      Metatron_6: 2637673648803490436
+      Metatron_7: -3545738781956709579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

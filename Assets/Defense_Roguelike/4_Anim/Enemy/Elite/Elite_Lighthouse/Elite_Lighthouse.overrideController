@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Elite_Lighthouse
+  m_Controller: {fileID: 9100000, guid: 0f122ffffd966544c90139decc63c007, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8070344057ea1d745a8fc90912ac6f99, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 74ca7779d63d242a29e2c2feb57a9171, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 385244cfb75b92d428e1c1b003d6f40b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2e17f3b0e69834b8baacf34066dbef79, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 51b0d7deeb62be444afc18457d4f7a71, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 160268961fdbf4f7e823c2cea171743a, type: 2}

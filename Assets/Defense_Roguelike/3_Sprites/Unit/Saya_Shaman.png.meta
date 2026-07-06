@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 645fbc990a575440c82d646a042c6bc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3017117484453437642
+    second: Saya_Shaman_0
+  - first:
+      213: -8963953595909748469
+    second: Saya_Shaman_1
+  - first:
+      213: -6005511829500493739
+    second: Saya_Shaman_2
+  - first:
+      213: 2698497706047245568
+    second: Saya_Shaman_3
+  - first:
+      213: -2369735549162909599
+    second: Saya_Shaman_4
+  - first:
+      213: -6344243912486428904
+    second: Saya_Shaman_5
+  - first:
+      213: -8915925857898484775
+    second: Saya_Shaman_6
+  - first:
+      213: -324235102970471432
+    second: Saya_Shaman_7
+  - first:
+      213: -3444288213567797333
+    second: Saya_Shaman_8
+  - first:
+      213: -1783050499105610237
+    second: Saya_Shaman_9
+  - first:
+      213: -1221572099649410935
+    second: Saya_Shaman_10
+  - first:
+      213: 4804720607505527789
+    second: Saya_Shaman_11
+  - first:
+      213: 2403552586060831475
+    second: Saya_Shaman_12
+  - first:
+      213: 5641518802422167822
+    second: Saya_Shaman_13
+  - first:
+      213: -2910806095829211867
+    second: Saya_Shaman_14
+  - first:
+      213: 3082151845706638573
+    second: Saya_Shaman_15
+  - first:
+      213: -6174213005457591387
+    second: Saya_Shaman_16
+  - first:
+      213: -1509915874984836096
+    second: Saya_Shaman_17
+  - first:
+      213: -6234562305109007867
+    second: Saya_Shaman_18
+  - first:
+      213: -8227172439108230575
+    second: Saya_Shaman_19
+  - first:
+      213: -4971921812364254623
+    second: Saya_Shaman_20
+  - first:
+      213: 2770705166750190600
+    second: Saya_Shaman_21
+  - first:
+      213: 4121715360772764990
+    second: Saya_Shaman_22
+  - first:
+      213: -6873123032918143187
+    second: Saya_Shaman_23
+  - first:
+      213: 6486531780370427777
+    second: Saya_Shaman_24
+  - first:
+      213: -4067219325589969848
+    second: Saya_Shaman_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Saya_Shaman_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4160
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f588d12ab0126d0800000000000000
+      internalID: -3017117484453437642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_1
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 4160
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09c6b492b3a99380800000000000000
+      internalID: -8963953595909748469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_2
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 4160
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55087344fc228aca0800000000000000
+      internalID: -6005511829500493739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_3
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 4160
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d072ccd5df27520800000000000000
+      internalID: 2698497706047245568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160978cc2120d1fd0800000000000000
+      internalID: -2369735549162909599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_5
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2080
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fdfcb56c7b4f7a0800000000000000
+      internalID: -6344243912486428904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_6
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 2080
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbad3cbba4444480800000000000000
+      internalID: -8915925857898484775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb9bb744e5108bf0800000000000000
+      internalID: -324235102970471432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_8
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 0
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba70a3e4e1e6330d0800000000000000
+      internalID: -3444288213567797333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_9
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 2080
+        height: 2080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062a30a4055147e0800000000000000
+      internalID: -1783050499105610237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saya_Shaman_10
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 2080
+        height: 2080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9886ed4c5aa1c0fe0800000000000000
+      internalID: -1221572099649410935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b75fa63f8966e4844b4b0efddf8ed518
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2080.0,"y":2080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Saya_Shaman_0: -3017117484453437642
+      Saya_Shaman_1: -8963953595909748469
+      Saya_Shaman_10: -1221572099649410935
+      Saya_Shaman_2: -6005511829500493739
+      Saya_Shaman_3: 2698497706047245568
+      Saya_Shaman_4: -2369735549162909599
+      Saya_Shaman_5: -6344243912486428904
+      Saya_Shaman_6: -8915925857898484775
+      Saya_Shaman_7: -324235102970471432
+      Saya_Shaman_8: -3444288213567797333
+      Saya_Shaman_9: -1783050499105610237
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

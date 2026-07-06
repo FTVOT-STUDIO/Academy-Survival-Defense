@@ -1,0 +1,23 @@
+# ninja log v5
+2	9413	7554670996581533	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	eaa910a8322bef93
+582	3383	7554670935693853	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6d18e024eb6b4fd5
+3386	6637	7554670962646281	C:/Unity Project/Defense_Roguelike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4359516r/obj/arm64-v8a/libswappywrapper.so	772b5efff709459d
+250	7768	7554670979262728	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	40189c9c07660a6f
+413	8279	7554670984512907	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e23c31d09f62ce51
+142	7850	7554670979951485	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	7f373079b02c4d28
+221	7924	7554670978728964	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	6755f483e528615e
+210	8566	7554670987606182	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f61ed803de097013
+433	8182	7554670983803058	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6b713df22cb19c8b
+237	9062	7554670992859660	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	987e2ad6461464c3
+9414	9663	7554670999204186	C:/Unity Project/Defense_Roguelike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4359516r/obj/arm64-v8a/libgame.so	bae5042872658c21
+71	607	7555530657725744	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6d18e024eb6b4fd5
+608	1328	7555530664828424	C:/Unity Project/Defense_Roguelike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4359516r/obj/arm64-v8a/libswappywrapper.so	772b5efff709459d
+54	2182	7555530673630826	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	40189c9c07660a6f
+8	2214	7555530674118991	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	7f373079b02c4d28
+33	2246	7555530674482735	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6b713df22cb19c8b
+14	2294	7555530674937755	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	6755f483e528615e
+62	2389	7555530675881214	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e23c31d09f62ce51
+21	2482	7555530676806741	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f61ed803de097013
+45	2750	7555530679159612	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	987e2ad6461464c3
+27	2886	7555530680554252	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	eaa910a8322bef93
+2887	3027	7555530682417029	C:/Unity Project/Defense_Roguelike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4359516r/obj/arm64-v8a/libgame.so	bae5042872658c21

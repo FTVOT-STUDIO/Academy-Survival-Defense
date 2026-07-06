@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: c6e0f0e9bf73d4e388e320660adc9cc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2161079344480055432
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_0
+  - first:
+      213: 2907089130862705498
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_1
+  - first:
+      213: 9199179774502730819
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_2
+  - first:
+      213: -339516898483037429
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_3
+  - first:
+      213: -6984473805734312002
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_4
+  - first:
+      213: 3317460912925597363
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_5
+  - first:
+      213: -8745620820268500206
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_6
+  - first:
+      213: -5241371223927815152
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_7
+  - first:
+      213: -1796169002444765642
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_8
+  - first:
+      213: -495807548554609481
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_9
+  - first:
+      213: 7510273065435583998
+    second: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+      0%, 100%, 1.00)_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2089
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f05dc39cd4202e0800000000000000
+      internalID: -2161079344480055432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1889
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b787f792e085820800000000000000
+      internalID: 2907089130862705498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1689
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c713cf34d0aaf70800000000000000
+      internalID: 9199179774502730819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1489
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b1daefd2bc94bf0800000000000000
+      internalID: -339516898483037429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1289
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb78f2a341a221f90800000000000000
+      internalID: -6984473805734312002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1089
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be5c27af1df90e20800000000000000
+      internalID: 3317460912925597363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bb2a3433051a680800000000000000
+      internalID: -8745620820268500206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01404dd44a8e247b0800000000000000
+      internalID: -5241371223927815152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63646bc0fc9b217e0800000000000000
+      internalID: -1796169002444765642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcf17759a98e19f0800000000000000
+      internalID: -495807548554609481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0,
+        0%, 100%, 1.00)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 2160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5d877df89d93860800000000000000
+      internalID: 7510273065435583998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_0: -2161079344480055432
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_1: 2907089130862705498
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_10: 7510273065435583998
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_2: 9199179774502730819
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_3: -339516898483037429
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_4: -6984473805734312002
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_5: 3317460912925597363
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_6: -8745620820268500206
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_7: -5241371223927815152
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_8: -1796169002444765642
+      pattern_straight-lines_6_5_0-0_0_1__hsla(240, 7%, 18%, 0.00)_hsla(0, 0%, 100%, 1.00)_9: -495807548554609481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

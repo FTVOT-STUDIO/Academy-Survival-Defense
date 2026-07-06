@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Womputer_Load_Run
+  m_Controller: {fileID: 9100000, guid: 261c6766a2f01db41846708f26139ce4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 78e986b6cafb58f4a9870e42b15d9b66, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 65475fe8adf6d8a4fa62776d4827e8ba, type: 2}

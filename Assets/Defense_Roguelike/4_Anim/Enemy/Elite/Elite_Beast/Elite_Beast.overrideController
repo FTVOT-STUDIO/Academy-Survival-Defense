@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Elite_Beast
+  m_Controller: {fileID: 9100000, guid: 0f122ffffd966544c90139decc63c007, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8070344057ea1d745a8fc90912ac6f99, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 89dc02efacbbb40ffbbb294ebaf22657, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 385244cfb75b92d428e1c1b003d6f40b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b37a050a108df42c28a712ffeb719dc2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 51b0d7deeb62be444afc18457d4f7a71, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d1b73e865ae4441ed89fab501141abaf, type: 2}

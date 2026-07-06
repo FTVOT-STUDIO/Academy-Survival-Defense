@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_Panel
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 54d4f42672af4499ea4449932fc9053f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 5b3256a0d0c6e6844b3fec6605ff2486: 1553783333598435680
+    - d9826713cf91b4acf8ce038e7e28c53e: 9176748480721710186
+    - f98b375415e884124b028aafe2c855a3: 21300000
+    - aa6a25085641f794f8cf3a30dc3e9416: -2646892383618777923
+    - 5249698b00b5d7743ad602fb09b38127: 7338537890181046969
+    - e1875febcd74e4879871746034c2f054: 21300000
+    - 92b1344fe8cc14ae5a5730242d61b9af: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1553783333598435680, guid: 5b3256a0d0c6e6844b3fec6605ff2486, type: 3}
+  - {fileID: 9176748480721710186, guid: d9826713cf91b4acf8ce038e7e28c53e, type: 3}
+  - {fileID: 21300000, guid: f98b375415e884124b028aafe2c855a3, type: 3}
+  - {fileID: -2646892383618777923, guid: aa6a25085641f794f8cf3a30dc3e9416, type: 3}
+  - {fileID: 7338537890181046969, guid: 5249698b00b5d7743ad602fb09b38127, type: 3}
+  - {fileID: 21300000, guid: e1875febcd74e4879871746034c2f054, type: 3}
+  - {fileID: 21300000, guid: 92b1344fe8cc14ae5a5730242d61b9af, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Paenl3_0
+  - TrapezoidPanel_0
+  - Panel4
+  - Panel2
+  - Picsart_24-11-22_08-48-17-249_0
+  - ChatBubble_Panel
+  - Panel5
+  m_RenderDataMap: {}
+  m_Tag: UI_Panel
+  m_IsVariant: 0

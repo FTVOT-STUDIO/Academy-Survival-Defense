@@ -1,0 +1,92 @@
+# =========================
+# Unity core folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# =========================
+# Unity build outputs
+# =========================
+[Bb]uild/
+[Bb]uilds/
+*_Data/
+*.exe
+*.app
+*.apk
+*.aab
+*.unitypackage
+
+# =========================
+# Generated assets / temporary generated folders
+# =========================
+[Gg]enerated[Aa]ssets/
+[Gg]enerated[Aa]ssets_deleted/
+
+# =========================
+# Unity recordings / captures
+# =========================
+[Rr]ecordings/
+[Mm]emoryCaptures/
+
+# =========================
+# Android / signing keys
+# 절대 GitHub에 올리지 마십시오.
+# =========================
+[Kk]ey/
+[Kk]eystore/
+*.keystore
+*.jks
+
+# =========================
+# IDE / Editor files
+# =========================
+.vs/
+.vscode/
+.idea/
+
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =========================
+# Unity / package generated project files
+# =========================
+*.booproj
+*.tmp
+*.svd
+
+# =========================
+# Unity crash logs
+# =========================
+mono_crash*.json
+mono_crash*.blob
+sysinfo.txt
+
+# =========================
+# Unity upgrade logs
+# =========================
+UpgradeLog*.htm
+UpgradeLog*.html
+
+# =========================
+# Editor layout files
+# =========================
+*.wlt
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini

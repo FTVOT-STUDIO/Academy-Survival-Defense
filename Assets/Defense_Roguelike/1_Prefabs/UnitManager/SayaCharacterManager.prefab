@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2828387949409496446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7023750597752533722}
+  - component: {fileID: 3278724555212267983}
+  m_Layer: 0
+  m_Name: SayaCharacterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7023750597752533722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828387949409496446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3278724555212267983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828387949409496446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e824ca8dd30241e7b5a4027c958fb01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SayaCharacterManager
+  frontLevel: 0
+  middleLevel: 0
+  backLevel: 0
+  frontAnim:
+  - {fileID: 22100000, guid: 918d4e993180c4f77a8c6b28e3d4188a, type: 2}
+  - {fileID: 22100000, guid: 7137124ad94b54d0e8e2e8e15f8d5464, type: 2}
+  - {fileID: 22100000, guid: 3fdb2ca533dca4883ab6405720dbbe30, type: 2}
+  - {fileID: 22100000, guid: 0b3b16fabe8274d18b5b96b6afd3203b, type: 2}
+  - {fileID: 22100000, guid: 28af45fa2d9ab46368442e37a4dace69, type: 2}
+  middleAnim:
+  - {fileID: 22100000, guid: cea1f15a2e0414d24bccb497849d1da2, type: 2}
+  - {fileID: 22100000, guid: c75e1d7bbd5f84c1dab09133522e9a95, type: 2}
+  - {fileID: 22100000, guid: 809892c60e47047ffabb43de5616829a, type: 2}
+  - {fileID: 22100000, guid: 5b0bb3492a1514c13860cafa393b9b48, type: 2}
+  - {fileID: 22100000, guid: 53e3e687ae2984520abc4401d2200f28, type: 2}
+  backAnim:
+  - {fileID: 22100000, guid: c50a3dbacfe6045d8b26a0cebd14aed8, type: 2}
+  - {fileID: 22100000, guid: 06c7570c6304c4630a0933485b99d21a, type: 2}
+  - {fileID: 22100000, guid: 2c4fd65abbde14c2484fe9fe259ca036, type: 2}
+  - {fileID: 22100000, guid: e465ea9bb7fae485d84b313a5643533c, type: 2}
+  - {fileID: 22100000, guid: 694d062c4ed7743b787bf8b9d8720dfe, type: 2}
+  fieldData: {fileID: 11400000, guid: f8b7b232600c34a128183e916b905e5d, type: 2}
+  hunterData: {fileID: 11400000, guid: a2e7e65e4a55e4dfa803628b4b4b9e08, type: 2}
+  shamanData: {fileID: 11400000, guid: 3b568d4ffcc274b05a0b431f8f52ae6b, type: 2}

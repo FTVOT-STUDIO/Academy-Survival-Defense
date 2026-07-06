@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Field
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c53f634ffb94d404a9391e8c1784591e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - fe584ad56cd36440bbc6ccab81d61df9: -1770170538
+    - fe584ad56cd36440bbc6ccab81d61df9: 732051494
+    - fe584ad56cd36440bbc6ccab81d61df9: 286789222
+    - fe584ad56cd36440bbc6ccab81d61df9: 1340027321
+    - fe584ad56cd36440bbc6ccab81d61df9: 812660247
+    - fe584ad56cd36440bbc6ccab81d61df9: -139427899
+    - 591f61aaaea0e284593a001d6bb644f5: 6994594601120678990
+    - e4d7d66b9601b425aa3fe1cece614cd3: 6994594601120678990
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1770170538, guid: fe584ad56cd36440bbc6ccab81d61df9, type: 3}
+  - {fileID: 732051494, guid: fe584ad56cd36440bbc6ccab81d61df9, type: 3}
+  - {fileID: 286789222, guid: fe584ad56cd36440bbc6ccab81d61df9, type: 3}
+  - {fileID: 1340027321, guid: fe584ad56cd36440bbc6ccab81d61df9, type: 3}
+  - {fileID: 812660247, guid: fe584ad56cd36440bbc6ccab81d61df9, type: 3}
+  - {fileID: -139427899, guid: fe584ad56cd36440bbc6ccab81d61df9, type: 3}
+  - {fileID: 6994594601120678990, guid: 591f61aaaea0e284593a001d6bb644f5, type: 3}
+  - {fileID: 6994594601120678990, guid: e4d7d66b9601b425aa3fe1cece614cd3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Field_Normal_Batch
+  - Field_Slow_Square
+  - Field_Normal_Square
+  - Field_Normal_Base
+  - Field_Slow_Base
+  - Field_Slow_Batch
+  - "\uBB34\uC81C360_20241120103514_0"
+  - "\uBB34\uC81C360_20241120103514_0"
+  m_RenderDataMap: {}
+  m_Tag: Field
+  m_IsVariant: 0

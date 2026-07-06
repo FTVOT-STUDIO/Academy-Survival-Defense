@@ -1,0 +1,8 @@
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/ftvot_studio/Unity_Project/Defense_Roguelike/.utmp/RelWithDebInfo/3wj286g3/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

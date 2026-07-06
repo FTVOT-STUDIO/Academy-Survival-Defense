@@ -1,0 +1,726 @@
+fileFormatVersion: 2
+guid: b0e9e60a59e3747b49fc4fdb387d5c3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1741564922897917306
+    second: CheatCodeSprite_0
+  - first:
+      213: 5992897909941928275
+    second: CheatCodeSprite_1
+  - first:
+      213: 532576622639468676
+    second: CheatCodeSprite_2
+  - first:
+      213: -631983562385361236
+    second: CheatCodeSprite_3
+  - first:
+      213: 9081652019693595095
+    second: CheatCodeSprite_4
+  - first:
+      213: -1291706696024861807
+    second: CheatCodeSprite_5
+  - first:
+      213: -2333563077478539301
+    second: CheatCodeSprite_6
+  - first:
+      213: -6941009007623736621
+    second: CheatCodeSprite_7
+  - first:
+      213: 767479550087659518
+    second: CheatCodeSprite_8
+  - first:
+      213: 8902655312090127571
+    second: CheatCodeSprite_9
+  - first:
+      213: 8116012495358392768
+    second: CheatCodeSprite_10
+  - first:
+      213: -520144410678569687
+    second: CheatCodeSprite_11
+  - first:
+      213: 3815206121867843162
+    second: CheatCodeSprite_12
+  - first:
+      213: -7902613247872610041
+    second: CheatCodeSprite_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CheatCodeSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5130
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb6bf7007426481a9b39d877149bc05
+      internalID: -1772376877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5130
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c634d65ae34d50a2268b2da4aca3e
+      internalID: 841723685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5130
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc08b8ead87704b31a19865884faaaff
+      internalID: 827810935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5130
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb1d12b21c84e7997fee9449c8f5de
+      internalID: -1169868748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_4
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5130
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6672a40939d7644c5afa47677914a709
+      internalID: -878673893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3850
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d986b415e80c4101afe2ee90fe4979b
+      internalID: -656348709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_6
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3850
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b65df543bfa45549e857a9db73f36d
+      internalID: -1215306302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_7
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3850
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d150c786f2ba34bc984ec53fe99b8ffb
+      internalID: 1379182197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_8
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3850
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434ac5df97384b7890e2f09f6726389
+      internalID: 321341889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_9
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3850
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cead490238d4069b0790fb36171f1b
+      internalID: 1133248444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2570
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352a7d22e67f4eccb4b7d3079dadb7b
+      internalID: 1692813597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2570
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98f3b4713a44128bd23554311dcf65
+      internalID: -1034580941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_12
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2570
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa11add56d7d45d39ebbd778a395908
+      internalID: -113887999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2570
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c0c58da9efc43b2bbf93066e2d4549
+      internalID: -1553428912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_14
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2570
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2ef9d7c1cc74efe95b0965c8dad0d5
+      internalID: 1788794380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1290
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b1d94cd8ae44601a841b23659535f7
+      internalID: 1097464324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1290
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f890c2a57ce58402980d8d2273978bec
+      internalID: -979429842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_17
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1290
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56747195720284e82983e4d77f2093ab
+      internalID: -690263461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_18
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1290
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d634ed10df14d62bba184a0d754af1
+      internalID: 1977847785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_19
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1290
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f6a430293a4309b38b38176e4018e
+      internalID: 1044819414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea01d87c7ac3404793227c3adbffe21
+      internalID: 859938185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 10
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b71d46cb5fea48e7af3a297e7cc23a7
+      internalID: -2035712781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_22
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 10
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e4a52e16e2949e6b6da179ce8f0bca
+      internalID: 1809357250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheatCodeSprite_23
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 10
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b599656433a4f6ca0271bc71f13d87
+      internalID: 1396116475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3b59cd1ac63dc4887b4f9bcf8be4ba72
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1280.0,"y":1280.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CheatCodeSprite_0: -1772376877
+      CheatCodeSprite_1: 841723685
+      CheatCodeSprite_10: 1692813597
+      CheatCodeSprite_11: -1034580941
+      CheatCodeSprite_12: -113887999
+      CheatCodeSprite_13: -1553428912
+      CheatCodeSprite_14: 1788794380
+      CheatCodeSprite_15: 1097464324
+      CheatCodeSprite_16: -979429842
+      CheatCodeSprite_17: -690263461
+      CheatCodeSprite_18: 1977847785
+      CheatCodeSprite_19: 1044819414
+      CheatCodeSprite_2: 827810935
+      CheatCodeSprite_20: 859938185
+      CheatCodeSprite_21: -2035712781
+      CheatCodeSprite_22: 1809357250
+      CheatCodeSprite_23: 1396116475
+      CheatCodeSprite_3: -1169868748
+      CheatCodeSprite_4: -878673893
+      CheatCodeSprite_5: -656348709
+      CheatCodeSprite_6: -1215306302
+      CheatCodeSprite_7: 1379182197
+      CheatCodeSprite_8: 321341889
+      CheatCodeSprite_9: 1133248444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

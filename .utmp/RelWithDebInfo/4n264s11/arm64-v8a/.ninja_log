@@ -1,0 +1,12 @@
+# ninja log v5
+74	416	7983028401128617	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	b9491c9045b536c3
+417	610	7983028402912396	D:/Unity Project/Defense_Roguelike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4n264s11/obj/arm64-v8a/libswappywrapper.so	9f94c6149818ee93
+31	1268	7983028409631242	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	43e8ab31542cc474
+37	1295	7983028409901290	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ff240cd959f143d
+17	1311	7983028409974136	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	7d5e6160b7943a68
+58	1333	7983028410299347	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	3535dd404c99f94
+8	1382	7983028410728778	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	a9bb481bbc68129
+51	1576	7983028412639974	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b81880f7f7bef51a
+24	1578	7983028412639974	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ad5a88f743e42d3
+1	1670	7983028413630290	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	c8d28dde4e8c3d50
+1670	1767	7983028414639429	D:/Unity Project/Defense_Roguelike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4n264s11/obj/arm64-v8a/libgame.so	b4aff8351b16f2cc

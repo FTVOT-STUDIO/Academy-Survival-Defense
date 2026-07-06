@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 6058ce486f0d14e2ab40daa02d849883
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5059896449074802610
+    second: SnowWhite_0
+  - first:
+      213: 4712648711627121153
+    second: SnowWhite_1
+  - first:
+      213: -3003991507289015522
+    second: SnowWhite_2
+  - first:
+      213: 6399613996268988316
+    second: SnowWhite_3
+  - first:
+      213: 674141018803755949
+    second: SnowWhite_4
+  - first:
+      213: -2979466220627214733
+    second: SnowWhite_5
+  - first:
+      213: 2055155178096549409
+    second: SnowWhite_6
+  - first:
+      213: 3575831302180530134
+    second: SnowWhite_7
+  - first:
+      213: 4393054226170390319
+    second: SnowWhite_8
+  - first:
+      213: -5304710817777057151
+    second: SnowWhite_9
+  - first:
+      213: -8466357352748176075
+    second: SnowWhite_10
+  - first:
+      213: 5233514955998356155
+    second: SnowWhite_11
+  - first:
+      213: 1739920332522016541
+    second: SnowWhite_12
+  - first:
+      213: 2146628373781347465
+    second: SnowWhite_13
+  - first:
+      213: -3967878176570639351
+    second: SnowWhite_14
+  - first:
+      213: 7501184891434134857
+    second: SnowWhite_15
+  - first:
+      213: 7199512440966821893
+    second: SnowWhite_16
+  - first:
+      213: 2190194680005072670
+    second: SnowWhite_17
+  - first:
+      213: 4658172999104579088
+    second: SnowWhite_18
+  - first:
+      213: 5919968611904595896
+    second: SnowWhite_19
+  - first:
+      213: 2820322909879203268
+    second: SnowWhite_20
+  - first:
+      213: 3518980364640698763
+    second: SnowWhite_21
+  - first:
+      213: -4507863332011972086
+    second: SnowWhite_22
+  - first:
+      213: 6118171237895543872
+    second: SnowWhite_23
+  - first:
+      213: -3037075239466018247
+    second: SnowWhite_24
+  - first:
+      213: 3671604775752576449
+    second: SnowWhite_25
+  - first:
+      213: -471054866320432668
+    second: SnowWhite_26
+  - first:
+      213: 226245775434380610
+    second: SnowWhite_27
+  - first:
+      213: 2209834711528729420
+    second: SnowWhite_28
+  - first:
+      213: -9118004088973568331
+    second: SnowWhite_29
+  - first:
+      213: -4921403961032812842
+    second: SnowWhite_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 750
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SnowWhite_Effect0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40d2a0fcf2a7c9b0800000000000000
+      internalID: -5059896449074802610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Effect1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102acb7d801b66140800000000000000
+      internalID: 4712648711627121153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Effect2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b7fb3d3adaf46d0800000000000000
+      internalID: -3003991507289015522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Trans_Attack
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2560
+        width: 1280
+        height: 1280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c972b33e50fffc850800000000000000
+      internalID: 6399613996268988316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Effect3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab51525fa70b5900800000000000000
+      internalID: 674141018803755949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Effect4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e3d3b124fc6a6d0800000000000000
+      internalID: -2979466220627214733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Effect5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1280
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12edfbceeb0658c10800000000000000
+      internalID: 2055155178096549409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Idle
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 1120
+        height: 1120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7613faf97ef9130800000000000000
+      internalID: 3575831302180530134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Attack
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 1120
+        height: 1140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f272ae51b8347fc30800000000000000
+      internalID: 4393054226170390319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_Trans_Idle
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185ef6ec7930347cfab66c88af4dbf06
+      internalID: 1488917539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowWhite_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1280
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beabcc5196c4a43f0b11df5e7184eeb2
+      internalID: -288896015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a890da2e882e046c9b666e89faa541d8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SnowWhite_10: -288896015
+      SnowWhite_Attack: 4393054226170390319
+      SnowWhite_Effect0: -5059896449074802610
+      SnowWhite_Effect1: 4712648711627121153
+      SnowWhite_Effect2: -3003991507289015522
+      SnowWhite_Effect3: 674141018803755949
+      SnowWhite_Effect4: -2979466220627214733
+      SnowWhite_Effect5: 2055155178096549409
+      SnowWhite_Idle: 3575831302180530134
+      SnowWhite_Trans_Attack: 6399613996268988316
+      SnowWhite_Trans_Idle: 1488917539
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
