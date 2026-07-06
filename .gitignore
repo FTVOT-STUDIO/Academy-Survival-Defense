@@ -12,7 +12,8 @@
 # =========================
 [Bb]uild/
 [Bb]uilds/
-*_Data/
+# Unity build output Data folders only
+/*_Data/
 *.exe
 *.app
 *.apk
