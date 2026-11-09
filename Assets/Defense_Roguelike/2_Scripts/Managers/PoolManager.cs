@@ -17,6 +17,7 @@ public class PoolManager : MonoBehaviour
     [Header("# Pool Size")]
     public int size;
     List<GameObject>[] pools;
+    readonly Dictionary<GameObject, List<GameObject>> effectPools = new Dictionary<GameObject, List<GameObject>>();
     [Header("# Bullet Genrator")]
     public BulletGenerator bulletGenerator;
 
@@ -58,8 +59,35 @@ public class PoolManager : MonoBehaviour
         return select;
     }
 
+    // 신규 캐릭터 이펙트는 프리팹 참조로 대여하여 씬의 enum 배열 순서에 의존하지 않습니다.
+    public GameObject Get(GameObject prefab, Vector3 pos)
+    {
+        if (prefab == null) return null;
+        if (!effectPools.TryGetValue(prefab, out var pool))
+        {
+            pool = new List<GameObject>();
+            effectPools.Add(prefab, pool);
+        }
+        foreach (var item in pool)
+        {
+            if (item == null || item.activeSelf) continue;
+            item.transform.SetParent(transform, false);
+            item.transform.SetPositionAndRotation(pos, Quaternion.identity);
+            item.transform.localScale = Vector3.one;
+            item.SetActive(true);
+            return item;
+        }
+        var created = Instantiate(prefab, pos, Quaternion.identity, transform);
+        pool.Add(created);
+        return created;
+    }
+
     public void Clear()
     {
+        foreach (var pool in effectPools.Values)
+            foreach (var item in pool)
+                if (item != null) Destroy(item);
+        effectPools.Clear();
         foreach (List<GameObject> pool in pools)
         {
             foreach (GameObject obj in pool)

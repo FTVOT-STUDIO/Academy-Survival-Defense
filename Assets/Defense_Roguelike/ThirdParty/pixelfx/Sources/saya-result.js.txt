@@ -1,0 +1,7 @@
+import { Rng, TAU, hex, WHITE, sparkle, clamp, smooth } from '../../core/index.js';
+export const meta={name:'Saya / Result',desc:'A sharp rune stamp settles into a short ring of crystalline sparks.',tags:['arcane','impact','one-shot'],size:[112,112],origin:[56,56],duration:.8,fps:24,loop:false,bg:'dark',options:{seed:4,palette:['#263269','#6389d0','#a6edff','#ffffff']}};
+export function draw(p,t,o){if(t>=.8)return;const C=o.palette.map(hex),q=t/.8,a=1-smooth(.25,.8,t),R=new Rng(o.seed),r=28*(1-Math.pow(1-clamp(t/.28),3));
+ p.ring(0,0,r,1,C[1],a);p.glowRing(0,0,r,3,C[1],.15*a);
+ if(t<.12)sparkle(p,0,0,13*(1-t/.12),WHITE,C[2],.2);
+ for(let i=0;i<14;i++){const ang=R.range(0,TAU),d=(12+R.range(0,25))*(1-Math.exp(-t*6));const x=Math.cos(ang)*d,y=Math.sin(ang)*d;p.line(x,y,x-Math.cos(ang)*3,y-Math.sin(ang)*3,C[2],a);if(i%4===0)sparkle(p,x,y,2*a,C[3],C[1],.05);}
+}

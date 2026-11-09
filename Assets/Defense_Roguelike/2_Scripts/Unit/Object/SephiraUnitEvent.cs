@@ -19,6 +19,7 @@ public class SephiraUnitEvent : MonoBehaviour
 
     public void MultiplyAbilityStats(float percent)
     {
+        if (YesodEpicController.OwnsGauge(sephiraUnit)) return;
         if (sephiraUnit.isSkillActive)
             return;
 
@@ -35,6 +36,7 @@ public class SephiraUnitEvent : MonoBehaviour
 
     public void AddAbllityStats(float amount)
     {
+        if (YesodEpicController.OwnsGauge(sephiraUnit)) return;
         if (sephiraUnit.isSkillActive)
             return;
         sephiraUnit.abllityCount = Mathf.Min(sephiraUnit.abllityCount + amount, sephiraUnit.maxAbllityCount);

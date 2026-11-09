@@ -183,6 +183,7 @@ public class GameManager : MonoBehaviour
     }
     public void OnWaveChangedInvoke()
     {
+        YesodEpicController.Notify(0.1f);
         OnWaveChanged?.Invoke(wave);
         AudioManager.Inst.PlaySfx(AudioManager.Sfx.OnWaveChanged);
         AudioManager.Inst.PlaySfx(AudioManager.Sfx.Select2);
@@ -372,6 +373,8 @@ public class GameManager : MonoBehaviour
 
     public void ModifyCoin(int amount)
     {
+        if (amount > 0 && SayaCharacterManager.Inst != null && SayaCharacterManager.Inst.IsResourceBlocked) return;
+        if (amount < 0) YesodEpicController.Notify(0.05f);
         int previousGold = coin;
         if (amount >= 0)
             amount *= GameFlowManager.Inst.coinGainMultiplier;
@@ -396,6 +399,7 @@ public class GameManager : MonoBehaviour
 
     public void ModifyDarkMatteCoin(int amount)
     {
+        if (amount > 0 && SayaCharacterManager.Inst != null && SayaCharacterManager.Inst.IsResourceBlocked) return;
         int previousDarkMatteCoin = darkMatteCoin;
         if (amount >= 0)
             amount *= GameFlowManager.Inst.darkMatteGainMultiplier;

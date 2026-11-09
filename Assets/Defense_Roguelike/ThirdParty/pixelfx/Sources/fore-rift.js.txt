@@ -1,0 +1,8 @@
+import { Rng, TAU, hex, WHITE, sparkle, smooth, clamp } from '../../core/index.js';
+export const meta={name:'Fore / Broken affection',desc:'A violet diamond tears open with a white central cut and breaks into four fading petals.',tags:['shadow','curse','impact','one-shot'],size:[144,144],origin:[72,72],duration:1.1,fps:24,loop:false,bg:'dark',options:{seed:12}};
+export function draw(p,t,o){if(t>=1.1)return;const C=['#1b0f36','#55288e','#a94ce0','#eb92ff','#f2e6ff'].map(hex),q=clamp(t/.18),fade=1-smooth(.32,1.1,t),r=48*(1-Math.pow(1-q,3))*fade;
+ p.glow(0,0,r*.8,C[2],.18*fade);
+ for(let layer=0;layer<3;layer++){const pts=[],rr=r*(1-layer*.07);for(let j=0;j<=120;j++){const a=j/120*TAU;pts.push([Math.pow(Math.cos(a),3)*rr,Math.pow(Math.sin(a),3)*rr]);}p.polyline(pts,layer===0?C[3]:layer===1?WHITE:C[1],fade);}
+ if(t<.18){p.beam(0,-r*.7,0,r*.7,Math.max(1,4*(1-t/.18)),WHITE,fade);sparkle(p,0,0,11*q,WHITE,C[3],.12);}
+ const R=new Rng(o.seed);for(let i=0;i<24;i++){const a=R.range(0,TAU),d=(18+R.range(0,37))*(1-Math.exp(-t*4));sparkle(p,Math.cos(a)*d,Math.sin(a)*d,(i%3===0?2:1)*fade,C[i%2?3:4],WHITE,.04*fade);}
+}

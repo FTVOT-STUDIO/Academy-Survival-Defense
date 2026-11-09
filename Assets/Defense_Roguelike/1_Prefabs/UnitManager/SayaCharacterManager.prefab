@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e824ca8dd30241e7b5a4027c958fb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SayaCharacterManager
-  frontLevel: 0
-  middleLevel: 0
-  backLevel: 0
+  fieldLevel: 0
+  hunterLevel: 0
+  shamanLevel: 0
   frontAnim:
   - {fileID: 22100000, guid: 918d4e993180c4f77a8c6b28e3d4188a, type: 2}
   - {fileID: 22100000, guid: 7137124ad94b54d0e8e2e8e15f8d5464, type: 2}
@@ -68,3 +68,12 @@ MonoBehaviour:
   fieldData: {fileID: 11400000, guid: f8b7b232600c34a128183e916b905e5d, type: 2}
   hunterData: {fileID: 11400000, guid: a2e7e65e4a55e4dfa803628b4b4b9e08, type: 2}
   shamanData: {fileID: 11400000, guid: 3b568d4ffcc274b05a0b431f8f52ae6b, type: 2}
+  diceModel: {fileID: 919132149155446097, guid: 26bd8d806edd04fb1b0a17fcf531a113, type: 3}
+  rollingPanel: {fileID: 1100493642941321401, guid: cb769d7082fb541058e577021d71e69b, type: 3}
+  rollingCost: 300
+  rollingDuration: 3.4
+  resultDuration: 1.5
+  diceMaterial: {fileID: 2100000, guid: f1103fcfa22043148e6ea7431e932bba, type: 2}
+  rollingFont: {fileID: 11400000, guid: 67252509f095a4164b0da9cbe64547bb, type: 2}
+  rollVisualPrefab: {fileID: 100000, guid: e768dc4010574ba88ac63771f82eef79, type: 3}
+  skillEffectPrefab: {fileID: 100000, guid: cca4db48d9e54cada90eb805effe86f8, type: 3}

@@ -118,6 +118,7 @@ public class UnitSpawn : MonoBehaviour
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.FocusOn2);
             unit.unitEvent.ApplySilencedUnit(5);
         }
+        YesodEpicController.Notify(0.1f);
         return unit;
     }
 

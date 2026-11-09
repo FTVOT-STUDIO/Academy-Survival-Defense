@@ -38,6 +38,11 @@ public class CheatCodeManager : MonoBehaviour
 
     }
 
+    public void ResetAllCooldowns()
+    {
+        foreach (CheatCodeList list in cheatCodeLists) list.ResetCooldown();
+    }
+
     public void RequestCheatCode()
     {
         selectList.TryActivateCheatCode();

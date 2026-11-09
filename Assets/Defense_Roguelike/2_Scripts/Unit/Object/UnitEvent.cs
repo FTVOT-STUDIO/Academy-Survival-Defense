@@ -47,6 +47,8 @@ public class UnitEvent : MonoBehaviour, IUnitStatusFlag
     private Coroutine parasiticCoroutine;
     private Coroutine syntaxErrorCoroutine;
     private Coroutine silencedCoroutine;
+    private Coroutine ignoredCoroutine;
+    private float ignoredRemainingTime;
 
     public GameObject specialShield;
     public GameObject invulnerableShield;
@@ -386,6 +388,39 @@ public class UnitEvent : MonoBehaviour, IUnitStatusFlag
                 return;
             syntaxErrorCoroutine = StartCoroutine(SyntaxErrorUnitCoroutine(hitChanceDecrease, damageDecrease, duration));
         }
+    }
+
+    public void ApplyIgnoredUnit(float duration)
+    {
+        if (!unit.isLive || !gameObject.activeInHierarchy || IsInvulnerable) return;
+        if (IsIgnored && ignoredCoroutine == null) return;
+        if (DecrementSpecialShield()) return;
+        ignoredRemainingTime = Mathf.Max(ignoredRemainingTime, duration);
+        if (ignoredCoroutine == null) ignoredCoroutine = StartCoroutine(IgnoredUnitCoroutine());
+    }
+
+    private IEnumerator IgnoredUnitCoroutine()
+    {
+        unit.ResetUnitBuff();
+        if (unit.unitData.type == Type.Support && unit.unitData.unitSupportType == UnitSupportType.Mult)
+        {
+            unit.unitSupportBuffController.supportBuffRangeCircle.SetActive(false);
+        }
+        IsIgnored = true;
+        EventFloatingText("묵살", 5, Color.gray);
+        while (ignoredRemainingTime > 0)
+        {
+            ignoredRemainingTime -= Time.deltaTime;
+            yield return null;
+        }
+        IsIgnored = false;
+        ignoredCoroutine = null;
+        if (unit.unitData.type == Type.Support && unit.unitData.unitSupportType == UnitSupportType.Mult)
+        {
+            unit.unitSupportBuffController.SetSupportRangeCircle(true);
+            unit.unitSupportBuffController.ApplySupportBuffToNearbyFields();
+        }
+        if (unit.unitSkill is SayaTreasureFieldSkill.SayaTreasureFieldRuntimeSkill saya) saya.RefreshSharedShield();
     }
 
     public void ApplySilencedUnit(float duration)
@@ -780,6 +815,9 @@ public class UnitEvent : MonoBehaviour, IUnitStatusFlag
 
     public void ResetUnitEvent()
     {
+        if (ignoredCoroutine != null) StopCoroutine(ignoredCoroutine);
+        ignoredCoroutine = null;
+        ignoredRemainingTime = 0;
         hitChanceDecrease = 1;
         damageDecrease = 1;
 

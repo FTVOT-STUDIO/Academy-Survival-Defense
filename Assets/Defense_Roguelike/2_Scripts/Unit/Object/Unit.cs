@@ -142,6 +142,7 @@ public class Unit : MonoBehaviour, IUnitBaseStat
     }
     void OnDisable()
     {
+        if (unitSkill is JulesDeForeSkill.JulesDeForeRunTimeSkill fore) fore.ApplyOnDisablePassive(this);
         GameStatManager.Inst.OnStatsChanged -= UpdateStats;
         GameStatManager.Inst.OnStatsChanged -= RefreshSupportBuffIfDirty;
         ResetUnitState();
@@ -493,6 +494,7 @@ public class Unit : MonoBehaviour, IUnitBaseStat
             BaseShieldReceivedMultiplier * GameStatManager.Inst.GameShieldReceivedMultiplier,
             0.0001f);
 
+        JulesDeForeSkill.ApplyBonuses(this);
         unitEvent.OnStatChanged?.Invoke();
 
         UpdateHealthBar();
@@ -568,7 +570,7 @@ public class Unit : MonoBehaviour, IUnitBaseStat
             u.StartCoroutine(u.DamageCoroutine(actualDamage));
         }
     }
-    public IEnumerator DamageCoroutine(float damage, Enemy enemy = null)
+    public IEnumerator DamageCoroutine(float damage, Enemy enemy = null, bool allowSayaAbsorption = true)
     {
         if (unitEvent.IsInvulnerable || unitEvent.IsIgnored)
             yield break;
@@ -579,6 +581,8 @@ public class Unit : MonoBehaviour, IUnitBaseStat
             floatingText.InitializeText("회피", 4, Color.pink);
             yield break;
         }
+        if (allowSayaAbsorption && SayaCharacterManager.Inst != null)
+            damage = SayaCharacterManager.Inst.AbsorbAllyDamage(this, damage);
         if (enemy != null)
             InGameEventManager.Inst.OnHit?.Invoke(enemy);
         if (shield > 0)

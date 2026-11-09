@@ -11,6 +11,7 @@ public class CheatCodeList : MonoBehaviour
     [SerializeField] Image cheatButtonIcon;
     public Slider coolTimeSlider;
     bool isActive;
+    private Coroutine cooldownCoroutine;
 
     public void Init(CheatCodeData data, CheatCodeManager manager)
     {
@@ -33,11 +34,19 @@ public class CheatCodeList : MonoBehaviour
         {
             GameManager.Inst.ModifyDarkMatteCoin(-cheatCodeData.applyCost);
             cheatCodeData.ApplyCheatCode();
-            CoroutineRunner.Inst.RunCoroutine(CooldownRoutine());
+            cooldownCoroutine = CoroutineRunner.Inst.RunCoroutine(CooldownRoutine());
             cheatCodeManager.onCheatActivated?.Invoke();
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.AbiltyOn);
         }
 
+    }
+
+    public void ResetCooldown()
+    {
+        if (cooldownCoroutine != null) CoroutineRunner.Inst.StopRunningCoroutine(cooldownCoroutine);
+        cooldownCoroutine = null;
+        isActive = false;
+        coolTimeSlider.value = 0;
     }
 
     IEnumerator CooldownRoutine()

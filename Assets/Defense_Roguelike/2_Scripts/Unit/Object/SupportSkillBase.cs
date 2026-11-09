@@ -67,7 +67,7 @@ public abstract class SingleSupportSkillBase : ISupportApplyOnce, IResetSingleSu
         scannedUnit.anim.SetTrigger("Attack");
     }
 
-    public void ApplySupportBuffUpdate(Unit unit, Unit targetUnit)
+    public virtual void ApplySupportBuffUpdate(Unit unit, Unit targetUnit)
     {
         ClearSupport(unit, targetUnit);
         unit.RecalculateStats();

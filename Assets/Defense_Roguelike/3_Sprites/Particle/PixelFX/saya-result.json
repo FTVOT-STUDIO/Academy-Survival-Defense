@@ -1,0 +1,479 @@
+{
+ "frames": [
+  {
+   "filename": "saya-result 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 1",
+   "frame": {
+    "x": 112,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 2",
+   "frame": {
+    "x": 224,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 3",
+   "frame": {
+    "x": 336,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 4",
+   "frame": {
+    "x": 448,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 5",
+   "frame": {
+    "x": 0,
+    "y": 112,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 6",
+   "frame": {
+    "x": 112,
+    "y": 112,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 7",
+   "frame": {
+    "x": 224,
+    "y": 112,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 8",
+   "frame": {
+    "x": 336,
+    "y": 112,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 9",
+   "frame": {
+    "x": 448,
+    "y": 112,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 10",
+   "frame": {
+    "x": 0,
+    "y": 224,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 11",
+   "frame": {
+    "x": 112,
+    "y": 224,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 12",
+   "frame": {
+    "x": 224,
+    "y": 224,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 13",
+   "frame": {
+    "x": 336,
+    "y": 224,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 14",
+   "frame": {
+    "x": 448,
+    "y": 224,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 15",
+   "frame": {
+    "x": 0,
+    "y": 336,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 16",
+   "frame": {
+    "x": 112,
+    "y": 336,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 17",
+   "frame": {
+    "x": 224,
+    "y": 336,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 18",
+   "frame": {
+    "x": 336,
+    "y": 336,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  },
+  {
+   "filename": "saya-result 19",
+   "frame": {
+    "x": 448,
+    "y": 336,
+    "w": 112,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 112
+   },
+   "duration": 42
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "saya-result.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 560,
+   "h": 448
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "saya-result",
+    "from": 0,
+    "to": 19,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "defense/saya-result",
+   "name": "Saya / Result",
+   "fps": 24,
+   "loop": false,
+   "frames": 20,
+   "frameSize": [
+    112,
+    112
+   ],
+   "pivot": [
+    56,
+    56
+   ],
+   "columns": 5
+  }
+ }
+}

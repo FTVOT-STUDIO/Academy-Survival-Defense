@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_Name: YesodEpicController
+  m_IsActive: 1
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+--- !u!4 &400000
+Transform:
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Script: {fileID: 11500000, guid: 477ff95efe5340519dcd4252fdce86ce, type: 3}
+  shardPrefab: {fileID: 100000, guid: d01787780fb14c32bab45693bad85f0b, type: 3}
+  hypnosisMaterial: {fileID: 2100000, guid: 4b248648958e4b3791b95456864a78a8, type: 2}
+  font: {fileID: 11400000, guid: 67252509f095a4164b0da9cbe64547bb, type: 2}

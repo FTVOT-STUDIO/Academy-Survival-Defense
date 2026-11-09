@@ -1,0 +1,12 @@
+import { TAU, hex, sparkle } from '../../core/index.js';
+export const meta={name:'Saya / Dice orbit',desc:'Two compact orbiting runic rings collect four bright dice pips.',tags:['arcane','dice','loop'],size:[96,96],origin:[48,48],duration:1.2,fps:24,loop:true,bg:'dark',options:{seed:4}};
+export function draw(p,t){
+ const ph=t/1.2*TAU,C=['#172451','#4c61bb','#829aff','#c4f7ff'].map(hex);
+ for(let ring=0;ring<2;ring++)for(let i=0;i<64;i++){
+  const a=i/64*TAU+ph*(ring?1:-1),r=24+ring*7;
+  if(i%8>4)continue;
+  p.px(Math.cos(a)*r,Math.sin(a)*r*.48,C[1+ring]);
+ }
+ for(let i=0;i<4;i++){const a=ph+i*TAU/4;sparkle(p,Math.cos(a)*29,Math.sin(a)*14,2,C[3],C[2],.06);}
+ p.glow(0,0,23,C[1],.08);
+}

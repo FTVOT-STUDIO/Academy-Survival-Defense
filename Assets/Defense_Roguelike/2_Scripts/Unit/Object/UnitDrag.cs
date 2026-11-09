@@ -150,14 +150,14 @@ public class UnitDrag : MonoBehaviour
 
     public void MouseDrag()
     {
-        if (unit.unitEvent.IsUnitLocked || unit.unitEvent.IsSilenced)
+        if (unit.unitEvent.IsUnitLocked || unit.unitSkill is IFieldMovementLocked || unit.unitEvent.IsSilenced)
         {
             ResetLoaction();
             GameManager.Inst.unitInputController.ForceReleaseSelectedUnit();
             GameManager.Inst.unitInputController.selectedUnit = null;
             return;
         }
-        if (GameManager.Inst.isPause || !GameManager.Inst.isGameStart || unit.unitEvent.IsUnitLocked || unit.unitEvent.IsIgnored || unit.unitEvent.IsSilenced || InGameUIManager.Inst.gameStatePanel.activeSelf || unit.unitEvent.IsIgnored || isInputLocked)
+        if (GameManager.Inst.isPause || !GameManager.Inst.isGameStart || unit.unitEvent.IsUnitLocked || unit.unitSkill is IFieldMovementLocked || unit.unitEvent.IsIgnored || unit.unitEvent.IsSilenced || InGameUIManager.Inst.gameStatePanel.activeSelf || unit.unitEvent.IsIgnored || isInputLocked)
             return;
 
         if (Time.timeScale == 0)
@@ -239,7 +239,7 @@ public class UnitDrag : MonoBehaviour
                 {
                     Unit unit = batchUnit.GetComponent<Unit>();
 
-                    if (unit.unitEvent.IsUnitLocked || unit.unitEvent.IsSilenced)
+                    if (unit.unitEvent.IsUnitLocked || unit.unitSkill is IFieldMovementLocked || unit.unitEvent.IsSilenced)
                     {
                         ResetLoaction();
                         break;

@@ -1,0 +1,99 @@
+// Original cosmic collapse composed with pixelfx's painter. No frames copied from the reference GIF.
+import { Rng, hex, mix, TAU, WHITE, smooth, clamp, sparkle } from '../../core/index.js';
+export const meta = { name:'Malkuth / Reverse Genesis', desc:'A crimson supernova devours orbiting planets, crushes into a silent singularity, then erupts in a white-hot shockfront.', tags:['space','implosion','planets','screen','one-shot'], size:[320,180], origin:[160,90], duration:1.45, fps:30, loop:false, bg:'black', options:{seed:24} };
+const C=['#080713','#200b22','#5d122c','#b12438','#fb563c','#ffad68','#ffe6b0'].map(hex);
+function planet(p,x,y,r,i,t,stretch=1){
+ const ramps=[['#21192e','#61475c','#ab7974','#e0b2a0'],['#172534','#30566b','#69a0aa','#a7dad9'],['#28172a','#7b3440','#b96855','#e5ae80']][i%3].map(hex);
+ p.shade(x-r*stretch-1,y-r-1,x+r*stretch+1,y+r+1,(X,Y,out)=>{
+  const dx=(X-x)/stretch,dy=Y-y,d=Math.hypot(dx,dy)/r;if(d>1)return;
+  const z=Math.sqrt(Math.max(0,1-d*d)),light=clamp((dx/r*-0.5+dy/r*-0.5+z*0.55)*0.7+0.35);
+  const band=Math.sin((dy/r+Math.sin(dx/r*3+t)*0.13)*13+i)*0.09;
+  out.c=ramps[Math.min(3,Math.max(0,Math.floor((light+band)*4)))];
+  if(d>0.87&&dx<0)out.c=C[5];
+ });
+ if(i===1){const pts=[];for(let n=0;n<=80;n++){const a=n/80*TAU;pts.push([x+Math.cos(a)*r*1.7,y+Math.sin(a)*r*.38+Math.cos(a)*r*.25]);}p.polyline(pts,ramps[2],.8);}
+}
+export function draw(p,clock,o){
+ if(clock>=meta.duration)return;
+ // A forced pull in 12 frames, one crushed beat, then the impact on frame 13.
+ const hit=13/30;
+ const t=clock<.4 ? clock/.4*1.68 : clock<hit ? 1.68+(clock-.4)/(hit-.4)*.16 : 1.84+(clock-hit)/(1.45-hit)*1.36;
+ const R=new Rng(o.seed),fade=smooth(0,.18,t)*(1-smooth(2.68,3.2,t));
+ const k=clamp(t/1.64),pull=Math.pow(k,.7),impact=t-1.84;
+ // Deep red nebula, with broad volumes instead of a flat opaque overlay.
+ p.each(-160,-90,159,89,(x,y,sx,sy)=>{
+  const d=Math.hypot(x/150,y/100),n=Math.sin(x*.025+y*.035+t*.25)+Math.sin(y*.053-x*.017);
+  const warm=clamp((1-d)*.65+n*.09+pull*.2);
+  p.blendPx(sx,sy,mix(C[0],C[2],warm),.18*fade);
+ });
+ for(let i=0;i<140;i++){
+  const a=R.range(0,TAU),rr=R.range(25,140),z=R.range(.45,1),ang=a+pull*.55,d=rr*(1-pull);
+  const x=Math.cos(ang)*d,y=Math.sin(ang)*d*.6;
+  if(t<1.7){const tx=Math.cos(ang-.08-pull*.13)*Math.min(146,d+2+pull*14),ty=Math.sin(ang-.08-pull*.13)*Math.min(136,d+2+pull*14)*.6;
+   p.line(x,y,tx,ty,i%4?C[4]:C[6],fade*(.25+z*.55));if(i%15===0)sparkle(p,x,y,1.5,C[6],WHITE,.05);}
+ }
+ if(t<1.68){
+  // Planets retain their mass until they crack; only the debris shrinks into the core.
+  for(let i=0;i<7;i++){
+   const phase=i*TAU/7+.36,breakAt=.12+i*.023,baseR=67+i%3*23,baseSize=8+i%4*2.4;
+   const progress=clamp(clock/breakAt),angle=phase+.42*progress*progress;
+   const distance=baseR*(1-.4*progress*progress),x=Math.cos(angle)*distance*1.13,y=Math.sin(angle)*distance*.62;
+   if(clock<breakAt){
+    planet(p,x,y,baseSize,i,t,1+progress*.12);
+    if(clock>breakAt-.055){
+     const crack=clamp((clock-breakAt+.055)/.055),pts=[[x-baseSize*.6,y-baseSize*.6],[x-baseSize*.1,y-baseSize*.12],[x-baseSize*.3,y+baseSize*.25],[x+baseSize*.5,y+baseSize*.65]];
+     p.polyline(pts,C[6],crack);p.glow(x,y,baseSize*1.8,C[4],crack*.2);
+    }
+   }else{
+    const age=clock-breakAt,u=clamp(age/.145),suck=smooth(.02,.145,age);
+    if(age<.055){
+     p.circle(x,y,baseSize*(1-age/.055),C[6]);
+     p.ring(x,y,baseSize+age*100,1,C[5],1-age/.055);
+     p.glow(x,y,baseSize*2.5,C[4],.5*(1-age/.055));
+    }
+    if(u>=1)continue;
+    for(let j=0;j<9;j++){
+     const a=j/9*TAU+i*.7,kick=(5+j%3*3)*Math.sin(u*Math.PI);
+     const px=x*(1-suck)+Math.cos(a)*kick,py=y*(1-suck)+Math.sin(a)*kick;
+     const r=(2+j%3)*(1-suck*.8),c=age<.035?C[6]:j%3?C[4]:C[5];
+     p.poly([[px-r,py-r*.6],[px+r*.7,py-r],[px+r,py+r*.8],[px-r*.5,py+r]],c,1-u*.4);
+     p.line(px,py,px+x*.12*(1-suck),py+y*.12*(1-suck),C[5],(1-u)*.65);
+    }
+   }
+  }
+  const rr=20*(1-pull)+3;
+  p.glow(0,0,43*(1-pull)+9,C[4],(.25+pull*.5)*fade);
+  // Accretion ribbons wrap behind the black central disc.
+  for(let lane=0;lane<4;lane++){
+   const pts=[];for(let j=0;j<120;j++){const a=j/119*TAU+t*(2+lane*.3),r=(27+lane*9)*(1-pull)+4;pts.push([Math.cos(a)*r,Math.sin(a)*r*.32-Math.cos(a)*r*.13]);}
+   p.polyline(pts,lane%2?C[4]:C[5],.9*fade);
+  }
+  p.circle(0,0,rr,C[0]);p.ring(0,0,rr+.6,1,C[6],fade);p.glowRing(0,0,rr+1,3,C[4],.35*fade);
+  const sun=9*(1-smooth(.45,1.62,t))*(1+.09*Math.sin(t*35));
+  if(sun>.4){
+   p.glow(0,0,sun*3.2,C[4],.28*fade);
+   for(let i=0;i<16;i++){const a=i/16*TAU+t*.4,l=sun*(1.1+.24*Math.sin(i*13+t*17));p.line(Math.cos(a)*sun,Math.sin(a)*sun,Math.cos(a)*l,Math.sin(a)*l,C[i%3?5:6],fade);}
+   p.circle(0,0,sun,C[4]);p.circle(-sun*.12,-sun*.1,sun*.78,C[5]);p.circle(0,0,sun*.48,C[6]);
+  }
+  sparkle(p,0,0,3+pull*6,C[6],WHITE,.12);
+ }
+ if(t>=1.68&&t<1.84){p.circle(0,0,2,C[6]);sparkle(p,0,0,9,WHITE,C[5],.25);}
+ if(impact>=0){
+  const q=clamp(impact/1.36),radius=132*(1-Math.pow(1-q,3));
+  if(impact<.09){p.rect(-160,-90,320,180,impact<.04?WHITE:C[6],fade);}
+  const pts=[];for(let i=0;i<=160;i++){const a=i/160*TAU,r=radius*(1+.035*Math.sin(a*13-impact*17));pts.push([Math.cos(a)*r,Math.sin(a)*r*.6]);}
+  p.polyline(pts,C[6],(1-q)*fade);
+  p.polyline(pts.map(([x,y])=>[x*.86,y*.86]),C[4],(1-q)*fade);p.glow(0,0,64*(1-q),C[4],.25*(1-q)*fade);
+  p.glow(0,0,80*(1-q),C[4],.75*(1-q)*fade);
+  p.beam(-140*(1-q),0,140*(1-q),0,Math.max(1,5*(1-q)),C[6],(1-q)*fade);
+  const blast=38*Math.pow(1-q,2.5);
+  for(let i=0;i<8;i++){const a=i/8*TAU+impact*.7,d=blast*.7;p.disc(Math.cos(a)*d,Math.sin(a)*d*.65,blast*.6,C[i%2?4:5],.55*fade);}
+  p.circle(0,0,blast*.72,C[6],fade);
+  for(let i=0;i<65;i++){
+   const a=R.range(0,TAU),speed=R.range(24,130),d=speed*(1-Math.exp(-impact*3)),tail=Math.max(0,d-4-9*(1-q));
+   const x=Math.cos(a)*d,y=Math.sin(a)*d*.65;
+   p.line(x,y,Math.cos(a)*tail,Math.sin(a)*tail*.65,i%3?C[4]:C[6],(1-q)*fade);
+   if(i%7===0)sparkle(p,x,y,2*(1-q),C[6],WHITE,.08*(1-q));
+  }
+ }
+}

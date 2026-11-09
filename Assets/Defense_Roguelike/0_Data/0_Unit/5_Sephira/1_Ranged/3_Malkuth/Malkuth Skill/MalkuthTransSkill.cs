@@ -6,6 +6,8 @@ using System.Linq;
 [CreateAssetMenu(fileName = "MalkuthTransSkill", menuName = "Unit Skill Data/MalkuthTransSkill")]
 public class MalkuthTransSkill : SephiraSkillBase<MalkuthTransSkill.MalkuthTransRumtimeSkill, ISephiraSkill>
 {
+    public GameObject collapseEffectPrefab;
+
     public class MalkuthTransRumtimeSkill : ISephiraSkill, IOnEnableSkill, IAttackPassive, IOnDisablePassive
     {
         SephiraUnit unit;
@@ -135,42 +137,47 @@ public class MalkuthTransSkill : SephiraSkillBase<MalkuthTransSkill.MalkuthTrans
             EffectManager.Inst.Get(EffectManager.PrefabType.MalkuthTransEffect, unit.transform.position);
 
             yield return new WaitForSeconds(unit.abllityApplyTime);
-            CameraShake.Inst.Shake(1, 1, 1f);
-            EffectManager.Inst.Get(EffectManager.PrefabType.MalkuthTransOffExlpoEffect, unit.transform.position);
-
-            AudioManager.Inst.PlaySfx(AudioManager.Sfx.Explo8);
+            var settings = (MalkuthTransSkill)unit.skillSO;
+            var collapse = PoolManager.Inst.Get(settings.collapseEffectPrefab, Vector3.zero).GetComponent<MalkuthCollapseUI>();
+            collapse.Play();
+            // 기존 URP도 같은 순간 실행하고 새 폭발 프레임에 수축을 맞춥니다.
+            var urpObject = PoolManager.Inst.Get(PoolManager.PrefabType.MalkuthBlackholeUrp, PoolManager.Inst.transform.position);
+            var urp = urpObject.GetComponent<MalkuthBlackholeEffect>();
+            urp.enterDuration = MalkuthCollapseUI.ImpactTime;
+            urp.targetCenter = new Vector2(0.5f, 0.5f);
+            urp.Play();
+            AudioManager.Inst.PlaySfx(AudioManager.Sfx.Gravity);
+            AudioManager.Inst.PlaySfx(AudioManager.Sfx.HeartBeat);
+            // 흡입이 끝난 흰 폭발 프레임에 즉사 판정을 맞춥니다.
+            yield return new WaitForSeconds(MalkuthCollapseUI.ImpactTime);
+            CameraShake.Inst.Shake(0.95f, 2, 0.18f);
+            PoolManager.Inst.Get(EffectManager.Inst.prefabs[(int)EffectManager.PrefabType.MalkuthTransOffExlpoEffect], unit.transform.position);
+            AudioManager.Inst.AudioLowPassFilter(false);
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.Explo6);
+            AudioManager.Inst.PlaySfx(AudioManager.Sfx.Explo8);
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.EarthQuake);
-            AudioManager.Inst.PlaySfx(AudioManager.Sfx.Epic);
-            AudioManager.Inst.PlaySfx(AudioManager.Sfx.FocusOn2);
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.MalkuthAbilityOff);
-            AudioManager.Inst.PlaySfx(AudioManager.Sfx.TimeStop);
-
             Bullet bullet = PoolManager.Inst.bulletGenerator.GetBullet(PoolManager.PrefabType.Bullet0, unit.gameObject);
             bullet.SetAttackInfo(unit.unitData.attribute.attributeType, 4, 0, 4, UnitUtility.AttackRangeType.Area, unit.areaDamage, unit.defensePenetration, unit.attributeResistancePenetration, unit.attributeDamageMultiplier, UnitUtility.AttackType.NormalAttack, unit.normalAttackMultiplier);
             bullet.SetDebuffInfo(Bullet.DebuffState.InsDeathAll);
             bullet.Launch(unit.transform.position, Bullet.BulletInitMode.HitScan, Bullet.BulletType.Multi, Bullet.BulletOwnerType.Sephira, 40, 1f);
 
-            GameUIManager.Inst.ShowFleshImage(InGameUIManager.Inst.inGameCanvas.transform, new Color(0.7f, 0.4f, 1), 0.4f);
-
-            PoolManager.Inst.Get(PoolManager.PrefabType.MalkuthBlackholeUrp, PoolManager.Inst.transform.position);
-            yield return new WaitForSeconds(0.8f);
+            yield return new WaitForSeconds(MalkuthCollapseUI.Duration - MalkuthCollapseUI.ImpactTime);
+            collapse.gameObject.SetActive(false);
+            // 우주 연출이 끝난 뒤 원래의 종료 UI를 그대로 이어서 표시합니다.
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.Explo7);
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.InputBeep);
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.OutputBeep);
-
-            Transform malkuthAbilityOffUI = PoolManager.Inst.Get(PoolManager.PrefabType.MalkuthAbilityOffUI, PoolManager.Inst.transform.position).transform;
-
-            malkuthAbilityOffUI.SetParent(InGameUIManager.Inst.inGameCanvas.transform, false);
-            RectTransform rect = malkuthAbilityOffUI.GetComponent<RectTransform>();
-            rect.anchorMin = Vector2.zero;
-            rect.anchorMax = Vector2.one;
-            rect.offsetMin = Vector2.zero;
-            rect.offsetMax = Vector2.zero;
-
-            GameUIManager.Inst.ShowFleshImage(InGameUIManager.Inst.inGameCanvas.transform, new Color(0.7f, 0.4f, 1), 0.4f);
-
+            Transform endUI = PoolManager.Inst.Get(PoolManager.PrefabType.MalkuthAbilityOffUI, Vector3.zero).transform;
+            endUI.SetParent(InGameUIManager.Inst.inGameCanvas.transform, false);
+            endUI.SetAsLastSibling();
+            RectTransform endRect = endUI.GetComponent<RectTransform>();
+            endRect.anchorMin = Vector2.zero;
+            endRect.anchorMax = Vector2.one;
+            endRect.offsetMin = Vector2.zero;
+            endRect.offsetMax = Vector2.zero;
             yield return new WaitForSeconds(1);
+
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.Electronic);
             AudioManager.Inst.PlaySfx(AudioManager.Sfx.Glitch);
             magicCircle.SetActive(false);

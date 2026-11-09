@@ -74,23 +74,26 @@ public class DebugHotkeyManager : MonoBehaviour
             GameStatManager.Inst.AddGameAttackSpeed(+1f);
         }
 
-        if (InputKey(KeyCode.I))
+        if (InputKey(KeyCode.Y) && GameManager.Inst != null && GameManager.Inst.isGameStart
+            && !GameManager.Inst.isPause && FieldManager.Inst != null)
         {
-            List<Unit> batchUnits = FieldManager.Inst.GetFieldBatchUnits();
-            for (int i = 0; i < batchUnits.Count; i++)
+            var yesod = FieldManager.Inst.fieldSephira;
+            if (yesod != null && yesod.skillSO is YesodSkill skill && !skill.truthForm)
             {
-                batchUnits[i].unitEvent.ApplyLevelUpUnit(1);
+                var controller = skill.GetController();
+                if (controller != null)
+                {
+                    controller.Bind(yesod, false);
+                    controller.PrepareLastShardForDebug();
+                }
             }
         }
 
+        if (InputKey(KeyCode.I))
+            SayaCharacterManager.GetForDebug()?.FillFieldForDebug();
+
         if (InputKey(KeyCode.O))
-        {
-            List<Unit> batchUnits = FieldManager.Inst.GetFieldBatchUnits();
-            for (int i = 0; i < batchUnits.Count; i++)
-            {
-                batchUnits[i].unitEvent.ApplyLevelDownUnit(1);
-            }
-        }
+            SayaCharacterManager.GetForDebug()?.MaxFieldForDebug();
     }
 
     bool InputKey(KeyCode keyCode)

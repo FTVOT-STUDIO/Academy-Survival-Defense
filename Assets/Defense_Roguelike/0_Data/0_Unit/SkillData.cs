@@ -336,3 +336,8 @@ public interface ISupportDetectable
 
 
 
+
+// 이동 제한은 공격/스킬 잠금과 독립적으로 판별합니다.
+public interface IFieldMovementLocked
+{
+}

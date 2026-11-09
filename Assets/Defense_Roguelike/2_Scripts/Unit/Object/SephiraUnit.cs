@@ -403,6 +403,7 @@ public class SephiraUnit : MonoBehaviour
         abilityMultiplier = Mathf.Max(baseAbilityMultiplier * GameStatManager.Inst.GameAbilityMultiplier, 0);
 
 
+        if (YesodEpicController.OwnsGauge(this)) YesodEpicController.Inst.SyncGauge();
         sephiraUnitEvent.OnStatChanged?.Invoke();
         UpdateAbilityBar();
         UpdateHealthBar();
@@ -601,6 +602,7 @@ public class SephiraUnit : MonoBehaviour
     }
     public void OnAbllity()
     {
+        if (YesodEpicController.BlocksAbility(this)) return;
         if (abllityCount >= maxAbllityCount && !isSkillActive)
         {
             StartCoroutine(DecreaseAbilitySlider());

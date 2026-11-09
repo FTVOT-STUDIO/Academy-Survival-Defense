@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_Name: PixelFxSprite
+  m_Shader: {fileID: 4800000, guid: 1b7a8d208a92484a8bfb08769dc3ffb6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_CustomRenderQueue: 3000
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
